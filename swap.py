@@ -1,68 +1,53 @@
-# Swap using Addition and Subtraction
+# Swap Two Numbers using User Choice
 
 a = int(input("Enter A value: "))
 b = int(input("Enter B value: "))
 
+print("\nChoose Swap Method\n1. Add/Sub\n2. Mul/Div\n3. XOR\n4. Python Swap")
+
+choice = int(input("\nEnter your choice (1-4): "))
+
+print(f"\nYou selected Method {choice} :")
 print("\nBefore Swap:")
 print("a =", a)
 print("b =", b)
 
-a = a + b
-b = a - b
-a = a - b
+x = a
+y = b
 
-print("\nAfter Swap using Add/Sub:")
-print("a =", a)
-print("b =", b)
+# Method 1
+if choice == 1:
+    x = x + y
+    y = x - y
+    x = x - y
 
+    print("\nAfter Swap using Add/Sub:")
 
-# Swap using Multiplication and Division
+# Method 2
+elif choice == 2:
+    x = x * y
+    y = x / y
+    x = x / y
 
-a = int(input("\nEnter A value: "))
-b = int(input("Enter B value: "))
+    print("\nAfter Swap using Mul/Div:")
 
-print("\nBefore Swap:")
-print("a =", a)
-print("b =", b)
+# Method 3
+elif choice == 3:
+    x = x ^ y
+    y = x ^ y
+    x = x ^ y
 
-a = a * b
-b = a / b
-a = a / b
+    print("\nAfter Swap using XOR:")
 
-print("\nAfter Swap using Mul/Div:")
-print("a =", a)
-print("b =", b)
+# Method 4
+elif choice == 4:
+    x, y = y, x
 
+    print("\nAfter Swap using Python Swap:")
 
-# Swap using XOR
+else:
+    print("\nInvalid Choice")
+    exit()
 
-a = int(input("\nEnter A value: "))
-b = int(input("Enter B value: "))
-
-print("\nBefore Swap:")
-print("a =", a)
-print("b =", b)
-
-a = a ^ b
-b = a ^ b
-a = a ^ b
-
-print("\nAfter Swap using XOR:")
-print("a =", a)
-print("b =", b)
-
-
-# Python Simple Swap
-
-a = int(input("\nEnter A value: "))
-b = int(input("Enter B value: "))
-
-print("\nBefore Swap:")
-print("a =", a)
-print("b =", b)
-
-a, b = b, a
-
-print("\nAfter Python Swap:")
-print("a =", a)
-print("b =", b)
+print("a =", x)
+print("b =", y)
