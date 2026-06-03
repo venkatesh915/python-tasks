@@ -320,6 +320,216 @@ while True:
 
 
 
+"""  OUTPUT
+===================================
+BANK MANAGEMENT SYSTEM
+===================================
+1. Create Account
+2. View Accounts
+3. Search Account
+4. Deposit Money
+5. Withdraw Money
+6. Check Balance
+7. Transfer Money
+8. Update Customer Details
+9. Transaction Summary
+10. Calculate Interest
+11. Close Account
+12. Reopen Account
+13. Top Account Holder
+14. Bank Statistics
+15. Exit
+Enter choice: 1
+Enter account number:123
+Enter customer name:venky
+Enter mobile number:123456963
+Enter mail id:venky@gmail.com
+Enter account type (savings/current)savings
+Enter account branch:chirala
+Enter ifsc code:12345567
+Enter inital amount:50000
+Account created successfully
+
+===================================
+BANK MANAGEMENT SYSTEM
+===================================
+1. Create Account
+2. View Accounts
+3. Search Account
+4. Deposit Money
+5. Withdraw Money
+6. Check Balance
+7. Transfer Money
+8. Update Customer Details
+9. Transaction Summary
+10. Calculate Interest
+11. Close Account
+12. Reopen Account
+13. Top Account Holder
+14. Bank Statistics
+15. Exit
+Enter choice: 6
+Enter account number:123
+===============Bank Account Details=====================
+Account Number: 123
+Customer name: venky
+Account mobile: 123456963
+Account email: venky@gmail.com
+Account Type savings
+Account Branch chirala
+Account ifsc code: 1234567
+Transactions  0
+Status: active
+Current balance: 50000.0
+
+===================================
+BANK MANAGEMENT SYSTEM
+===================================
+1. Create Account
+2. View Accounts
+3. Search Account
+4. Deposit Money
+5. Withdraw Money
+6. Check Balance
+7. Transfer Money
+8. Update Customer Details
+9. Transaction Summary
+10. Calculate Interest
+11. Close Account
+12. Reopen Account
+13. Top Account Holder
+14. Bank Statistics
+15. Exit
+Enter choice: 13
+Top Account Holder
+===============Bank Account Details=====================
+Account Number: 123
+Customer name: venky
+Account mobile: 123456963
+Account email: venky@gmail.com
+Account Type savings
+Account Branch chirala
+Account ifsc code: 1234567
+Transactions  0
+Status: active
+
+===================================
+BANK MANAGEMENT SYSTEM
+===================================
+1. Create Account
+2. View Accounts
+3. Search Account
+4. Deposit Money
+5. Withdraw Money
+6. Check Balance
+7. Transfer Money
+8. Update Customer Details
+9. Transaction Summary
+10. Calculate Interest
+11. Close Account
+12. Reopen Account
+13. Top Account Holder
+14. Bank Statistics
+15. Exit
+Enter choice: 2
+===============Bank Account Details=====================
+Account Number: 123
+Customer name: venky
+Account mobile: 123456963
+Account email: venky@gmail.com
+Account Type savings
+Account Branch chirala
+Account ifsc code: 1234567
+Transactions  0
+Status: active
+
+===================================
+BANK MANAGEMENT SYSTEM
+===================================
+1. Create Account
+2. View Accounts
+3. Search Account
+4. Deposit Money
+5. Withdraw Money
+6. Check Balance
+7. Transfer Money
+8. Update Customer Details
+9. Transaction Summary
+10. Calculate Interest
+11. Close Account
+12. Reopen Account
+13. Top Account Holder
+14. Bank Statistics
+15. Exit
+Enter choice: 4
+Enter account number:123
+===============Bank Account Details=====================
+Account Number: 123
+Customer name: venky
+Account mobile: 123456963
+Account email: venky@gmail.com
+Account Type savings
+Account Branch chirala
+Account ifsc code: 1234567
+Transactions  0
+Status: active
+Enter deposit amount:1500
+Deposit successful
+
+===================================
+BANK MANAGEMENT SYSTEM
+===================================
+1. Create Account
+2. View Accounts
+3. Search Account
+4. Deposit Money
+5. Withdraw Money
+6. Check Balance
+7. Transfer Money
+8. Update Customer Details
+9. Transaction Summary
+10. Calculate Interest
+11. Close Account
+12. Reopen Account
+13. Top Account Holder
+14. Bank Statistics
+15. Exit
+Enter choice: 6
+Enter account number:123
+===============Bank Account Details=====================
+Account Number: 123
+Customer name: venky
+Account mobile: 123456963
+Account email: venky@gmail.com
+Account Type savings
+Account Branch chirala
+Account ifsc code: 1234567
+Transactions  1
+Status: active
+Current balance: 51500.0
+
+===================================
+BANK MANAGEMENT SYSTEM
+===================================
+1. Create Account
+2. View Accounts
+3. Search Account
+4. Deposit Money
+5. Withdraw Money
+6. Check Balance
+7. Transfer Money
+8. Update Customer Details
+9. Transaction Summary
+10. Calculate Interest
+11. Close Account
+12. Reopen Account
+13. Top Account Holder
+14. Bank Statistics
+15. Exit
+Enter choice: 15
+Thank You"""
+
+       
 
 
 
