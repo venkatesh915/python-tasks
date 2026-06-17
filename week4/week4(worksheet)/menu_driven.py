@@ -69,3 +69,62 @@ while True:
 
     else:
         print("Invalid choice! try again.")
+
+
+
+"""
+
+===== HOSPITAL MENU =====
+1. Add patient
+2. View patients
+3. Search patient
+4. Exit
+Enter your choice:1
+Enter patient id:1
+Enter patient name:venky
+Enter age:21
+Enter city:chirala
+Patient added successfully!
+
+===== HOSPITAL MENU =====
+1. Add patient
+2. View patients
+3. Search patient
+4. Exit
+Enter your choice:1
+Enter patient id:2
+Enter patient name:eswar
+Enter age:22
+Enter city:hyd
+Patient added successfully!
+
+===== HOSPITAL MENU =====
+1. Add patient
+2. View patients
+3. Search patient
+4. Exit
+Enter your choice:2
+{'patient_id': 1, 'name': 'venky', 'age': 21, 'city': 'chirala'}
+{'patient_id': 2, 'name': 'eswar', 'age': 22, 'city': 'hyd'}
+
+===== HOSPITAL MENU =====
+1. Add patient
+2. View patients
+3. Search patient
+4. Exit
+Enter your choice:3
+Enter patient id to search:1
+Patient found:
+{'patient_id': 1, 'name': 'venky', 'age': 21, 'city': 'chirala'}
+
+===== HOSPITAL MENU =====
+1. Add patient
+2. View patients
+3. Search patient
+4. Exit
+Enter your choice:4
+Exiting program...
+
+
+
+"""
