@@ -32,5 +32,26 @@ p1.display_patient()
 print("\n----------------------\n")
 
 
-d1 = Doctor(2, "Priya", 21, "Chirala", "Dr. Ramesh", "Cardiology")
+d1 = Doctor(2, "anil", 21, "Chirala", "Dr. Ramesh", "Cardiology")
 d1.display_doctor()
+
+
+
+
+"""
+Patient ID: 1
+Name: Eswar
+Age: 25
+City: Hyderabad
+
+----------------------
+
+Patient ID: 2
+Name: anil
+Age: 21
+City: Chirala
+Doctor Name: Dr. Ramesh
+Specialization: Cardiology
+
+
+"""
