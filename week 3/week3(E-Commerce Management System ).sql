@@ -1,6 +1,5 @@
 -- =========================================================
 -- E-COMMERCE MANAGEMENT SYSTEM COMPLETE SQL PROJECT
--- PostgreSQL Full Single File Code
 -- =========================================================
 
 -- =========================
